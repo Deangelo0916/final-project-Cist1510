@@ -1,0 +1,96 @@
+/* styles for the elements*/
+Body{
+    background-color: royalblue;
+}
+#nav_menu ul{
+    list-style-type: square;
+    padding: 1em 0;
+    text-align: center;
+    background-color: silver;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-color: goldenrod;}
+#nav_menu ul li{
+    display: inline-block;
+    padding: 0 1.5em;}
+#nav_menu ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;}
+#nav_menu ul li a.current{ text-decoration: skyblue;}
+
+*{
+    margin: 1px; padding: 1px;}
+body{
+    width: auto;
+    margin: auto;
+}
+h2{
+    padding: 2px;}
+
+header{
+    border: ridge 6px;
+    border-bottom: 7px outset solid black;
+    font-weight: bold;
+    }
+ main{
+     height: 6px;
+     float: left;
+     border-right: outset;
+ }
+aside{
+    border: solid black;
+    background: blue;
+    width: 360px;
+    float: right;
+}
+footer{
+    border: black solid ;
+    width: fit-content;
+    background: blue;
+    padding: 2px; 
+}
+
+/* styles for the section*/
+header{
+    border-bottom:black 2em;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: greenyellow;
+}
+h2 h3 h4{
+    
+    color: greenyellow;
+    text-align: left;
+    font-size: large;
+    font-style: italic; 
+}   
+p{
+    font-size: larger;
+    font-style: italic;
+    text-align: left;
+    color:greenyellow;
+}
+img{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#last{clear: left;}
+
+
+
+
+
+
+    
+    
+    
+    
+
+    
+
+    
+
+
+
